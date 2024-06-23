@@ -1,0 +1,65 @@
+.tiny5-regular {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #002147;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 10px;
+}
+
+.column {
+    margin: 20px;
+}
+
+.column h3 {
+    color: white;
+    margin: 0;
+    font-size: 2em;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    font-family: "Tiny5", sans-serif;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+button {
+    background: #002147; /*#002147*/
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+}
+
+button:hover {
+    background: white;
+}
